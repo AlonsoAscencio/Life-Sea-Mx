@@ -7,7 +7,8 @@ background: linear-gradient(#00658d, #00b4b5);
 
 .form-register {
   width: 600px;
-  background: #042769;
+  background: #042769bf;
+  backdrop-filter: blur(3px);
   padding: 110px;
   margin: auto;
   margin-top: 130px;
@@ -15,6 +16,7 @@ background: linear-gradient(#00658d, #00b4b5);
   font-family: 'calibri';
   color: #fefefe;
   box-shadow: 7px 13px 37px #021436;
+  z-index: 2;
 }
 
 .form-register h4 {
@@ -170,4 +172,93 @@ select::-ms-expand {
   bottom: 100%;
   transition: 1s;
   transition-delay: 0.75s;
+}
+
+.burbuja{
+  background-color: #ffffff96;
+  opacity: .3;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -150px;
+  backdrop-filter: blur(3px);
+  z-index: -1;
+}
+
+.burbuja:nth-child(1){
+  width: 200px;
+  height: 200px;
+  left: 10%;
+  animation: burbujas 3s linear infinite;
+}
+.burbuja:nth-child(2){
+  width: 150px;
+  height: 150px;
+  left: 3%;
+  animation: burbujas 2s linear infinite;
+}
+.burbuja:nth-child(3){
+  width: 400px;
+  height: 400px;
+  left: 45%;
+  animation: burbujas 6s linear infinite;
+}
+.burbuja:nth-child(4){
+  width: 200px;
+  height: 200px;
+  left: 95%;
+  animation: burbujas 3s linear infinite;
+}
+.burbuja:nth-child(5){
+  width: 100px;
+  height: 100px;
+  left: 75%;
+  animation: burbujas 2.5s linear infinite;
+}
+.burbuja:nth-child(6){
+  width: 50px;
+  height: 50px;
+  left: 85%;
+  animation: burbujas 2s linear infinite;
+}
+.burbuja:nth-child(7){
+  width: 300px;
+  height: 300px;
+  left: 20%;
+  animation: burbujas 6s linear infinite;
+}
+.burbuja:nth-child(8){
+  width: 50px;
+  height: 50px;
+  left: 15%;
+  animation: burbujas 1.5s linear infinite;
+}
+.burbuja:nth-child(9){
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  animation: burbujas 2s linear infinite;
+}
+.burbuja:nth-child(10){
+  width: 250px;
+  height: 250px;
+  left: 80%;
+  animation: burbujas 5s linear infinite;
+  animation-delay: .2s;
+}
+
+@keyframes burbujas{
+  0%{
+    bottom: 0;
+    opacity: 0;
+  }
+  30%{
+    transform: translate(50px);
+  }
+  50%{
+    opacity: .4;  
+  }
+  100%{
+    bottom: 100vh;
+    opacity: 0;
+  }
 }
