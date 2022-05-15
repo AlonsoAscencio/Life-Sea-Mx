@@ -1,0 +1,139 @@
+.container-parallax{
+    top:-50px;
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+}
+.bg, .coral{
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+.turtle{
+    width: 700px;
+    height: 545px;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    z-index: -1;
+}
+.coral{
+    filter: blur(1.5px);
+}
+h1{
+    color: #fefefe;
+    text-shadow: 3px 10px 10px #042769;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    font-size: 7rem;
+    transform: translate(-50%,-50%) ;
+}
+
+.container-nosotros{
+    width: 100%;
+    background: linear-gradient(#042769, #00b4b5);
+    min-height: 120vh;
+    z-index: 2;
+    position: relative;
+    display: flex;
+}
+.container-img{
+    width: 40%;
+    margin-top: 20%;
+}
+.container-nosotros img{
+    margin-left: 20%;
+    position: relative;
+    width: 500px;
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 3px 2px 10px #042769;
+}
+
+.container-nosotros p, ul{
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    color: #fefefe;
+    font-size: 2rem;
+    text-shadow: 3px 2px 10px #042769;
+}
+.container-nosotros h2{
+    margin-top: 15%;
+   margin-left: 10%;
+    color: #fefefe;
+    font-size: 3rem;
+    text-align: center;
+}
+.container-life{
+    width: 100%;
+    height: 300px;
+    background-color: #7b2e24;
+    text-align: justify;
+    color: #fefefe;
+    font-size: 2rem;
+    top: 10%;
+    display: flex;
+}
+.container-life h2, p{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.subcontainer-life-img{
+    width: 40%;
+}
+.subcontainer-life-img img{
+    width: 300px;
+    height: auto;
+}
+.contenedor_tarjetas{
+    background: linear-gradient(#7b2e24, #d9a494);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+  }
+
+.tarjeta{
+    background-color: #fefefe;
+    margin-top: 50px;
+    height: 70%;
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 3px 15px -2px rgba(35, 22, 1, 0.5);
+   }
+.tarjeta:hover{
+    color: white;
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 4px 8px 20px -4px rgba(73, 49, 7, 0.761);
+   }
+.tarjeta img{
+    margin: 20px 20px;
+    width: 90%;
+    height: 60%;
+    justify-content: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.contenedor_tarjetas .heads{
+    text-align: center;
+    color: #042769;
+    font-size: 30px;
+}
+.contenedor_tarjetas .textos{
+    text-align: justify;
+    margin:10px 10px;
+    color: #06348b;
+    font-size: 20px;
+}

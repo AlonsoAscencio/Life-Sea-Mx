@@ -1,0 +1,173 @@
+
+
+body {
+height: 100vh;
+background: linear-gradient(#00658d, #00b4b5);
+}
+
+.form-register {
+  width: 600px;
+  background: #042769;
+  padding: 110px;
+  margin: auto;
+  margin-top: 130px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: #fefefe;
+  box-shadow: 7px 13px 37px #021436;
+}
+
+.form-register h4 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.controls {
+  width: 100%;
+  background: #fefefe;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #00658d;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #042769;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+
+
+.form-register a:hover {
+  color: #00658d;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #00658d;
+  border: none;
+  padding: 12px;
+  color: #042769;
+  margin: 16px 0;
+  font-size: 16px;
+}
+select {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  appearance:none;
+  outline:0;
+  box-shadow:none;
+  border:0!important;
+  background:#fefefe;
+  background-image: none;
+  flex: 1;
+  padding: 0 .5em;
+  color:#042769;
+  cursor:pointer;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+  display: none;
+}
+.select {
+  position: relative;
+  display: flex;
+  width: 22em;
+  height: 3em;
+  line-height: 3;
+  background: #fefefe;
+  overflow: hidden;
+  border-radius: .25em;
+}
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #fefefe;
+  cursor:pointer;
+  pointer-events:none;
+  transition:.25s all ease;
+}
+.select:hover::after {
+  color: #042769;
+}
+
+.btn-neon{
+  position: absolute;
+  display: flex;
+  padding: 15px 30px;
+  color: #fefefe;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.btn-neon:hover{
+  background: #fefefe;
+  box-shadow: 0 0 10px #00658d, 0 0 40px #00658d, 0 0 80px #00658d;
+  transition-delay: 1s;
+}
+.btn-neon span{
+  position: absolute;
+  display: block;
+}
+#span1{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fefefe);
+}
+.btn-neon:hover #span1{
+  left: 100%;
+  transition: 1s;
+}
+#span3{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,#fefefe);
+}
+.btn-neon:hover #span3{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+#span2{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#fefefe);
+}
+.btn-neon:hover #span2{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+#span4{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#fefefe);
+}
+.btn-neon:hover #span4{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
