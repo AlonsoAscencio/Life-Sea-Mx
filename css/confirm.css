@@ -1,0 +1,41 @@
+.confirm{
+  position: absolute;
+  width: 60%;
+  height: 30%;
+  background-color: #d9a494e1;
+  top: 30%;
+  left: 20%;
+  backdrop-filter: blur(3px);
+  border-radius: 2rem;
+  box-shadow: 5px 5px 20px #3d1509e1;
+}
+.confirm h1{
+    text-align: center;
+    color: #7b2e24;
+    font-size: 3rem;
+}
+.confirm p{
+    text-align: center;
+    color: #7b2e24;
+    font-size: 2rem;
+}
+.btn-neon{
+position: absolute;
+left: 40%;
+}
+.rechazo{
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    background-color: #d9a494e1;
+    top: 30%;
+    left: 20%;
+    backdrop-filter: blur(3px);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 20px #3d1509e1;
+  }
+  .rechazo h1{
+      text-align: center;
+      color: #6b0808;
+      font-size: 3rem;
+  }

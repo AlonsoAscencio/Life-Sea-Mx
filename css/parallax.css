@@ -84,7 +84,7 @@ h1{
     font-size: 2rem;
     top: 10%;
     display: flex;
-    padding-bottom: 250px;
+    padding-bottom: 300px;
 }
 .container-life h2, p{
     padding-top: 50px;
@@ -138,11 +138,23 @@ h1{
 .contenedor_tarjetas .heads{
     text-align: center;
     color: #042769;
-    font-size: 30px;
+    font-size: 20px;
 }
 .contenedor_tarjetas .textos{
     text-align: justify;
-    margin:10px 10px;
+    margin:1px 3px;
     color: #06348b;
-    font-size: 20px;
+    font-size: 16px;
+}
+.mapa{
+    background-color: #d9a494;
+    display: flex;
+    justify-content: center;
+}
+.titulo-mapa{
+    background-color: #d9a494;
+    text-align: center;
+    color: #fefefe;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
